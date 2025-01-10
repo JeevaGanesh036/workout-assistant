@@ -1,4 +1,4 @@
-![example workflow](https://github.com/reevald/ai-workout-assistant/actions/workflows/azure-static-web-apps-agreeable-stone-079552c10.yml/badge.svg)
+![example workflow]()
 # AI Workout Assistant
 An web application to help everyone do workout wherever and whenever. Supported by the pose detector feature to analyze every pose and auto count the number of repetitions made. So, let's create a healthy life by do workout every day!
 
@@ -14,7 +14,7 @@ Image data which is obtained from video or webcam will be processed by pose dete
 - Prerequisites: you'll need to have [Git](https://git-scm.com/), [Node](https://nodejs.org/), and [NPM](https://www.npmjs.com/package/npm) installed and running on your machine.
 - Open terminal/powershell/command prompt then clone this repository  
     ```Bash
-    git clone https://github.com/reevald/ai-workout-assistant.git
+    git clone [https://github.com/JeevaGanesh036/workout-assistant.git]
     cd ai-workout-assistant
     ```
 - Install dependencies
@@ -28,7 +28,7 @@ Image data which is obtained from video or webcam will be processed by pose dete
 - Then open http://localhost:8080 to see your app.
 
 ## Generate Your Own Workout
-1) Open app locally or visit [aiworkout.live](https://aiworkout.live/)
+1) Open app locally
 2) Collect dataset (keypoints):  
     - Using webcam (open settings menu => turn on `Developer Mode` => click `Record Keypoints` button then click again when finish recording)  
     **Note:** (1) The app only records keypoints while its playing and the result will be csv format; (2) The value of each keypoint always in resolution 640x360 (when use webcam only).
